@@ -31,3 +31,11 @@ export default [
     },
   },
 ]
+
+module.exports = {
+  content: ["./public/**/*.{html,js}"], // Paths to your HTML/JS files
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
